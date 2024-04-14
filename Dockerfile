@@ -9,7 +9,7 @@ COPY src ./src
 RUN mvn clean package
 
 # stage 2
-FROM openjdk:17-jre-slim
+FROM openjdk:11-ea-17-jre-slim
 
 WORKDIR /app
 

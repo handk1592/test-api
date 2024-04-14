@@ -1,0 +1,7 @@
+logging:
+  file:
+    name: mylog
+    path: /var/log/test-app/
+  level:
+    root: DEBUG
+    com.example.test: DEBUG
